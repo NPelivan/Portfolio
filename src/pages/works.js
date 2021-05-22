@@ -6,6 +6,11 @@ import ManageLandingPage from "../assets/manage-landing-page-master.png";
 import Countries from "../assets/countries.png";
 import Mesnica from "../assets/mesnica.png";
 import SignUpForm from "../assets/intro-component-with-sign-up-form.png";
+import PricingComponent from "../assets/pricing-component-with-toggle-master.png";
+import RandomColor from "../assets/random-color.png";
+import EasyBank from "../assets/easybank-landing-page-master.png";
+import BookmarkPage from "../assets/bookmark-landing-page-master.png";
+import Carapp from "../assets/car-app.png";
 
 export default class Works extends Component {
 	render() {
@@ -192,6 +197,147 @@ export default class Works extends Component {
 								href="https://github.com/NPelivan/Intro-component-with-sign-up-form"
 								target="_blank"
 							>
+								Show me the code
+							</a>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<a
+						href="https://pricing-component-with-toggle-master-mu.vercel.app/"
+						target="_blank"
+					>
+						<img
+							src={PricingComponent}
+							alt="Pricing Component With Toggle Master"
+							height="300"
+						/>
+					</a>
+					<div>
+						<h2>Pricing Component With Toggle Master</h2>
+						<p>
+							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
+							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
+							cupidatat voluptate proident voluptate quis velit proident veniam
+							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
+							cillum.
+						</p>
+						<p>
+							<a
+								href="https://github.com/NPelivan/Pricing-component-with-toggle-master"
+								target="_blank"
+							>
+								Show me the code
+							</a>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<a href="https://random-color-nine.vercel.app/" target="_blank">
+						<img src={RandomColor} alt="Color Generator" height="300" />
+					</a>
+					<div>
+						<h2>Color Generator</h2>
+						<p>
+							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
+							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
+							cupidatat voluptate proident voluptate quis velit proident veniam
+							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
+							cillum.
+						</p>
+						<p>
+							<a
+								href="https://github.com/NPelivan/Random-color"
+								target="_blank"
+							>
+								Show me the code
+							</a>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<a
+						href="https://easybank-landing-page-master-chi.vercel.app/"
+						target="_blank"
+					>
+						<img
+							src={EasyBank}
+							alt="Easybank Landing Page Master"
+							height="300"
+						/>
+					</a>
+					<div>
+						<h2>Easybank Landing Page Master</h2>
+						<p>
+							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
+							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
+							cupidatat voluptate proident voluptate quis velit proident veniam
+							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
+							cillum.
+						</p>
+						<p>
+							<a
+								href="https://github.com/NPelivan/easybank-landing-page-master"
+								target="_blank"
+							>
+								Show me the code
+							</a>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<a
+						href="https://bookmark-landing-page-master-npelivan.vercel.app/"
+						target="_blank"
+					>
+						<img
+							src={BookmarkPage}
+							alt="Bookmark Landing Page Master"
+							height="300"
+						/>
+					</a>
+					<div>
+						<h2>Bookmark Landing Page Master</h2>
+						<p>
+							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
+							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
+							cupidatat voluptate proident voluptate quis velit proident veniam
+							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
+							cillum.
+						</p>
+						<p>
+							<a
+								href="https://github.com/NPelivan/bookmark-landing-page-master"
+								target="_blank"
+							>
+								Show me the code
+							</a>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<a
+						href="http://car-app-git-main-npelivan.vercel.app/"
+						target="_blank"
+					>
+						<img src={Carapp} alt="Car app" height="300" />
+					</a>
+					<div>
+						<h2>Car app</h2>
+						<p>
+							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
+							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
+							cupidatat voluptate proident voluptate quis velit proident veniam
+							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
+							cillum.
+						</p>
+						<p>
+							<a href="https://github.com/NPelivan/Car-app" target="_blank">
 								Show me the code
 							</a>
 						</p>
