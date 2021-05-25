@@ -10,7 +10,7 @@ export default class Contact extends Component {
 					Id ea ad velit enim anim eu est laborum tempor amet ad nisi. Aliquip
 					in nostrud enim velit ea esse. Excepteur et velit quis consectetur.
 				</p>
-				<p>nikolina.pelivan1@gmail.com</p>
+				<a href="mailto:nikolina.pelivan1@gmail.com">Email</a>
 				<a
 					href="https://www.upwork.com/freelancers/~01ca1053390cabc025"
 					target="_blank"

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "../styles/style.scss";
 
 export default class Home extends Component {
 	render() {
@@ -11,7 +13,9 @@ export default class Home extends Component {
 
 				<p>Frontend developer</p>
 
-				<button>Contact me</button>
+				<Link to="/contact">
+					<button>Contact me</button>
+				</Link>
 			</main>
 		);
 	}
