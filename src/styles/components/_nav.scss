@@ -1,4 +1,5 @@
-@import "../base/colors";
+@import "../base/_colors";
+@import "../base/_fonts";
 
 nav {
 	display: flex;
@@ -14,11 +15,37 @@ nav {
 		width: 40%;
 		align-items: center;
 		right: 0;
+
 		a {
-			color: white;
+			color: $navcolor;
 			text-decoration: none;
+			font-size: 22px;
+			font-family: $sans-pro;
+			display: flex;
+			align-items: center;
+			height: 100%;
+
 			&:hover {
 				color: $hover-color;
+			}
+
+			li {
+				position: relative;
+
+				&::after {
+					content: "";
+					display: block;
+					position: relative;
+					bottom: 0;
+					width: 0;
+					height: 4px;
+					background-color: $mainColor;
+					transition: width 200ms ease;
+				}
+				&:hover::after {
+					width: 100%;
+					background-color: $mainColor;
+				}
 			}
 		}
 	}

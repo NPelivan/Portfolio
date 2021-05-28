@@ -1,0 +1,52 @@
+@import "../base/mixins";
+@import "../base/fonts";
+
+main {
+	background: linear-gradient(hsl(0, 0%, 98%), white);
+}
+
+section {
+	@include customWidth();
+	display: flex;
+	padding-top: 6%;
+	article {
+		width: 50%;
+		font-family: $rubik;
+		h1 {
+			font-size: 45px;
+		}
+		p {
+			margin-top: 5%;
+			margin-bottom: 7%;
+			font-size: 32px;
+		}
+	}
+	div {
+		width: 50%;
+	}
+	div img {
+		width: 100%;
+	}
+}
+
+span {
+	color: $mainColor;
+}
+
+button {
+	background-color: $mainColor;
+	color: $whiteColor;
+	padding: 3% 5% 3% 5%;
+	font-size: 25px;
+	border-radius: 40px;
+	border: 3px solid $mainColor;
+	cursor: pointer;
+	transition: all 0.4s;
+
+	&:hover {
+		background-color: $whiteColor;
+		border: 3px solid $mainColor;
+		color: black;
+		transition: all 0.4s;
+	}
+}

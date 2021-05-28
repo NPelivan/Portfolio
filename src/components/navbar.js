@@ -7,7 +7,9 @@ export default class Navbar extends Component {
 		return (
 			<nav>
 				<div>
-					<img src={Logo} alt="" height="100" />
+					<Link to="/">
+						<img src={Logo} alt="" height="100" />
+					</Link>
 				</div>
 				<ul>
 					<Link to="/">

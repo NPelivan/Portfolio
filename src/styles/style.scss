@@ -4,9 +4,5 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-color: #212121;
-	color: white;
-}
-
 @import "./components/_nav";
+@import "./components/home";
