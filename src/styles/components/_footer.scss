@@ -1,0 +1,13 @@
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	font-family: $sans-pro;
+
+	p {
+		margin-left: 1%;
+		svg {
+			color: red;
+		}
+	}
+}

@@ -1,8 +1,16 @@
+@import "./base/_fonts";
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+main {
+	background: linear-gradient(hsl(0, 0%, 98%), white);
+	font-family: $rubik;
+}
+
 @import "./components/_nav";
 @import "./components/home";
+@import "./components/footer";

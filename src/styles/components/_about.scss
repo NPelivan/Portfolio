@@ -1,0 +1,28 @@
+.about-main {
+	height: 100%;
+
+	h1 {
+		text-align: center;
+		font-size: 40px;
+		padding-top: 3%;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	section {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+
+		.text-container {
+			width: 40%;
+		}
+
+		.block-item {
+			margin-top: 6%;
+			line-height: 24px;
+		}
+	}
+}

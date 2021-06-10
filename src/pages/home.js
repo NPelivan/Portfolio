@@ -5,7 +5,7 @@ import Webdev from "../assets/undraw_web_development.svg";
 export default class Home extends Component {
 	render() {
 		return (
-			<main>
+			<main className="home-main">
 				<section>
 					<article>
 						<h1>
