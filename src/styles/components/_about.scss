@@ -1,3 +1,5 @@
+@import "../base/colors";
+
 .about-main {
 	height: 100%;
 
@@ -11,6 +13,10 @@
 		font-size: 18px;
 	}
 
+	h2 {
+		font-size: 30px;
+	}
+
 	section {
 		display: flex;
 		flex-direction: row-reverse;
@@ -22,6 +28,43 @@
 
 		.block-item {
 			margin-top: 6%;
+			line-height: 24px;
+		}
+	}
+
+	.skill-container {
+		display: block;
+		width: 30%;
+		h2 {
+			margin-bottom: 8%;
+		}
+		p {
+			margin-bottom: 5%;
+		}
+		span {
+			color: black;
+		}
+		ul {
+			margin-top: 5%;
+			columns: 2;
+			list-style-type: none;
+			li {
+				line-height: 30px;
+				svg {
+					color: $mainColor;
+					margin-right: 4%;
+				}
+			}
+		}
+	}
+
+	.hobby-container {
+		display: block;
+		h2 {
+			margin-bottom: 2%;
+		}
+		p {
+			width: 50%;
 			line-height: 24px;
 		}
 	}
