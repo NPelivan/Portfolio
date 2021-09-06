@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Nature1 from "../assets/nature1.jpeg";
-import Nature2 from "../assets/nature2.jpeg";
-import Nature3 from "../assets/nature3.jpeg";
-import Nature4 from "../assets/nature4.jpeg";
+import Nature2 from "../assets/nature4.jpeg";
 import Aboutme from "../assets/undraw_about_me.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -110,15 +108,15 @@ export default class About extends Component {
 						could also say that I program as a hobby.
 					</p>
 
-					<img src={Nature1} alt="Sea with cloudy sky" height="100" />
-					<img
-						src={Nature2}
-						alt="Beautiful view of city with cloudy sky and sun is trying to penetrate the clouds"
-						height="100"
-					/>
-					<img src={Nature3} alt="Where the sky touches the sea" height="100" />
+					<div className="image-container">
+						<img src={Nature1} alt="Sea with cloudy sky" loading="lazy" />
 
-					<img src={Nature4} alt="Old remains of old roman city" height="100" />
+						<img
+							src={Nature2}
+							alt="Old remains of old roman city"
+							loading="lazy"
+						/>
+					</div>
 				</section>
 			</main>
 		);

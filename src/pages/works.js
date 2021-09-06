@@ -11,11 +11,14 @@ import RandomColor from "../assets/random-color.png";
 import EasyBank from "../assets/easybank-landing-page-master.png";
 import BookmarkPage from "../assets/bookmark-landing-page-master.png";
 import Carapp from "../assets/car-app.png";
+import Newsapp from "../assets/news-app.png";
 
 export default class Works extends Component {
 	render() {
 		return (
-			<main>
+			<main className="works-main">
+				<h1>Projects</h1>
+
 				<article>
 					<a href="https://chat-app-eta-eosin.vercel.app/" target="_blank">
 						<img src={Chatapp} alt="Chat app" height="300" />
@@ -23,11 +26,10 @@ export default class Works extends Component {
 					<div>
 						<h2>Chat-app</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Chat app is an app created in React framework to let people chat
+							with others. There is no need for usernames because it's a simple
+							app with zero backend. I don't recommend for serious conversations
+							:)
 						</p>
 						<p>
 							<a href="https://github.com/NPelivan/Chat-app" target="_blank">
@@ -51,11 +53,12 @@ export default class Works extends Component {
 					<div>
 						<h2>Article Preview Component Master</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Simple card article created in ReactJS. It's a simple challenge
+							which I took from Frontend Mentor (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							) for practice.
 						</p>
 						<p>
 							<a
@@ -82,11 +85,11 @@ export default class Works extends Component {
 					<div>
 						<h2>Four Card Feature Section</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							This is my first challenge from Frontend Mentor (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							). I used only HTML and CSS for making this.
 						</p>
 						<p>
 							<a
@@ -113,11 +116,13 @@ export default class Works extends Component {
 					<div>
 						<h2>Manage Landing Page Master</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Landing page created with HTML/CSS and some vanilla JavaScript and
+							jQuery library. This is a challenge that I also took from Frontend
+							Mentor page (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							). For creating a carousel I used Slick a jQuery plugin.
 						</p>
 						<p>
 							<a
@@ -342,6 +347,22 @@ export default class Works extends Component {
 							</a>
 						</p>
 					</div>
+				</article>
+
+				<article>
+					<img src={Newsapp} alt="News app" height="300" />
+					<p>
+						Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
+						Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
+						cupidatat voluptate proident voluptate quis velit proident veniam
+						fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
+						cillum.
+					</p>
+					<p>
+						<a href="https://github.com/NPelivan/News-app" target="_blank">
+							Show me the code
+						</a>
+					</p>
 				</article>
 			</main>
 		);

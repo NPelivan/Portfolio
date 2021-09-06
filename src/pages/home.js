@@ -10,7 +10,9 @@ export default class Home extends Component {
 					<article>
 						<h1>
 							Hi,
-							<br /> I'm <span>Nikolina</span> <br /> Web designer & developer
+							<br /> I'm <span className="name animating">
+								Nikolina
+							</span> <br /> Web designer & developer
 						</h1>
 
 						<p>Frontend developer/designer</p>
