@@ -142,11 +142,15 @@ export default class Works extends Component {
 					<div>
 						<h2>REST Countries</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							REST Countries is ReactJS challenge from Frontend Mentor (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							). For country data I used API (
+							<a href="https://restcountries.eu/">https://restcountries.eu/</a>
+							). It shows data for every country like country name, population,
+							region and capital city. Users can search for either country and
+							switch between dark and light mode.
 						</p>
 						<p>
 							<a href="https://github.com/NPelivan/Countries" target="_blank">
@@ -163,11 +167,9 @@ export default class Works extends Component {
 					<div>
 						<h2>Mesnica</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Mesnica or Butchery on english. It's website created in HTML and
+							CSS. Everything written is only in Croatian and I use this to
+							present my web design skill.
 						</p>
 						<p>
 							<a href="https://github.com/NPelivan/Mesnica" target="_blank">
@@ -191,11 +193,13 @@ export default class Works extends Component {
 					<div>
 						<h2>Intro Component With Sign Up Form</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Intro Component With Sign Up Form is a Frontend Mentor challenge (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							). For creating this I used HTML CSS and JavaScript (jQuery
+							library). There is no backend only fronted part and it checks if
+							the user has entered correct data.
 						</p>
 						<p>
 							<a
@@ -222,11 +226,13 @@ export default class Works extends Component {
 					<div>
 						<h2>Pricing Component With Toggle Master</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Pricing Component With Toggle Master is a challenge from Frontend
+							Mentor (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							). For this project I use HTML/CSS as well as JavaScript and
+							jQuery.
 						</p>
 						<p>
 							<a
@@ -246,11 +252,10 @@ export default class Works extends Component {
 					<div>
 						<h2>Color Generator</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Colour Generator is React project which generates colours from
+							colour API. Users can shuffle colours and it shows colours with
+							their hexadecimal number of color and previous colour also with a
+							hexadecimal number of colour.
 						</p>
 						<p>
 							<a
@@ -277,11 +282,11 @@ export default class Works extends Component {
 					<div>
 						<h2>Easybank Landing Page Master</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Easy Landing Page Master is Frontend Mentor challenge (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							) created in HTML and Bootstrap and a little bit of CSS.
 						</p>
 						<p>
 							<a
@@ -308,11 +313,12 @@ export default class Works extends Component {
 					<div>
 						<h2>Bookmark Landing Page Master</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Bookmark Landing Page Master is a Frontend Mentor challenge (
+							<a href="https://www.frontendmentor.io/" target="_blank">
+								https://www.frontendmentor.io/
+							</a>
+							) created in React. Real challenge was creating tabs and FAQ
+							section.
 						</p>
 						<p>
 							<a
@@ -335,11 +341,11 @@ export default class Works extends Component {
 					<div>
 						<h2>Car app</h2>
 						<p>
-							Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-							Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-							cupidatat voluptate proident voluptate quis velit proident veniam
-							fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-							cillum.
+							Car app is an app created in React. For state management I used
+							Mobx. In this app users can sort cars A-Z, search cars by their
+							name, view all car makes, add a new car, delete cars, or rename
+							cars and they can use pagination to view all cars. I need to
+							redesign this app.
 						</p>
 						<p>
 							<a href="https://github.com/NPelivan/Car-app" target="_blank">
@@ -352,11 +358,9 @@ export default class Works extends Component {
 				<article>
 					<img src={Newsapp} alt="News app" height="300" />
 					<p>
-						Nostrud laborum nulla sit tempor labore in cillum esse duis sunt.
-						Deserunt qui deserunt nisi in. Excepteur sunt ad eu nulla amet
-						cupidatat voluptate proident voluptate quis velit proident veniam
-						fugiat. Adipisicing aute ad veniam tempor aliqua velit labore
-						cillum.
+						News app created in React where users can get latest news from
+						around the world. To get news data I used NewsAPI.org. For styling I
+						used SCSS.
 					</p>
 					<p>
 						<a href="https://github.com/NPelivan/News-app" target="_blank">
