@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/style.scss";
 import Webdev from "../assets/undraw_web_development.svg";
+import TypingAnimation from "../components/typingAnimation";
 export default class Home extends Component {
 	render() {
 		return (
@@ -10,9 +11,7 @@ export default class Home extends Component {
 					<article>
 						<h1>
 							Hi,
-							<br /> I'm <span className="name animating">
-								Nikolina
-							</span> <br /> Web designer & developer
+							<br /> I'm <TypingAnimation /> <br /> Web designer & developer
 						</h1>
 
 						<p>Frontend developer/designer</p>

@@ -148,9 +148,9 @@ export default class Works extends Component {
 							</a>
 							). For country data I used API (
 							<a href="https://restcountries.eu/">https://restcountries.eu/</a>
-							). It shows data for every country like country name, population,
-							region and capital city. Users can search for either country and
-							switch between dark and light mode.
+							). It shows data for each country, like the name of the country,
+							population, region and capital city. Users can search for either
+							country and switch between dark and light mode.
 						</p>
 						<p>
 							<a href="https://github.com/NPelivan/Countries" target="_blank">
@@ -167,7 +167,7 @@ export default class Works extends Component {
 					<div>
 						<h2>Mesnica</h2>
 						<p>
-							Mesnica or Butchery on english. It's website created in HTML and
+							Mesnica or Butchery in english. It's a website created in HTML and
 							CSS. Everything written is only in Croatian and I use this to
 							present my web design skill.
 						</p>
@@ -254,8 +254,8 @@ export default class Works extends Component {
 						<p>
 							Colour Generator is React project which generates colours from
 							colour API. Users can shuffle colours and it shows colours with
-							their hexadecimal number of color and previous colour also with a
-							hexadecimal number of colour.
+							their hexadecimal number of color. It also shows previous color
+							with a hexadecimal number of color.
 						</p>
 						<p>
 							<a
@@ -360,7 +360,7 @@ export default class Works extends Component {
 					<p>
 						News app created in React where users can get latest news from
 						around the world. To get news data I used NewsAPI.org. For styling I
-						used SCSS.
+						used SCSS. It has no live page bacause API key isn't free for use.
 					</p>
 					<p>
 						<a href="https://github.com/NPelivan/News-app" target="_blank">
