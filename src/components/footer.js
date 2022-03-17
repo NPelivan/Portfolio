@@ -6,7 +6,7 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<footer>
-				&copy; 2021
+				&copy; 2022
 				<p>
 					Made with <FontAwesomeIcon icon={faHeart} /> by Nikolina
 				</p>

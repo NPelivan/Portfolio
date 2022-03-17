@@ -1,7 +1,51 @@
+@import "../base/_fonts";
+@import "../base/_colors";
+
 .works-main {
+	font-size: 18px;
 	h1 {
 		text-align: center;
 		padding-top: 10vh;
 		padding-bottom: 10vh;
+		font-size: 40px;
+	}
+
+	&__container {
+		width: 75%;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		font-size: 18px;
+
+		article {
+			flex: 0 1 24%;
+			margin-bottom: 5%;
+			background-color: $whiteColor;
+			width: 100%;
+			border-radius: 15px;
+
+			img {
+				width: 530px;
+				border-top-left-radius: 15px;
+				border-top-right-radius: 15px;
+			}
+
+			.content {
+				width: 100%;
+				h2 {
+					font-size: 30px;
+					text-align: center;
+					margin-top: 5%;
+					margin-bottom: 3%;
+				}
+
+				p {
+					font-size: 18px;
+					width: 92%;
+					margin: 0 auto 5%;
+				}
+			}
+		}
 	}
 }
