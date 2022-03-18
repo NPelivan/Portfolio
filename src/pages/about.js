@@ -97,6 +97,10 @@ export default class About extends Component {
 							<FontAwesomeIcon icon={faPlus} />
 							Photoshop (design)
 						</li>
+						<li>
+							<FontAwesomeIcon icon={faPlus} />
+							Angular
+						</li>
 					</ul>
 				</section>
 
