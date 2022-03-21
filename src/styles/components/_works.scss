@@ -29,6 +29,10 @@
 				width: 530px;
 				border-top-left-radius: 15px;
 				border-top-right-radius: 15px;
+
+				@media (min-width: 1023px) and (max-width: 1400px) {
+					width: 370px;
+				}
 			}
 
 			.content {
