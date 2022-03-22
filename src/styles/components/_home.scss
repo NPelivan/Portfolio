@@ -10,6 +10,10 @@ section {
 	display: flex;
 	padding-top: 6%;
 
+	@media (max-width: 769px) {
+		width: 90%;
+	}
+
 	article {
 		width: 50%;
 
@@ -24,6 +28,10 @@ section {
 	}
 	div {
 		width: 50%;
+
+		@media (max-width: 769px) {
+			margin-top: 5%;
+		}
 	}
 	div img {
 		width: 100%;
@@ -43,6 +51,10 @@ button {
 	border: 3px solid $mainColor;
 	cursor: pointer;
 	transition: all 0.4s;
+
+	@media (max-width: 769px) {
+		font-size: 19px;
+	}
 
 	&:hover {
 		background-color: $whiteColor;

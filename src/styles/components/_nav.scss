@@ -20,6 +20,10 @@
 		align-items: center;
 		right: 0;
 
+		@media (min-width: 769px) and (max-width: 962px) {
+			width: 50%;
+		}
+
 		a {
 			color: $navcolor;
 			text-decoration: none;

@@ -6,6 +6,7 @@
 		text-align: center;
 		padding-top: 3%;
 		padding-bottom: 8vh;
+
 		span {
 			color: $mainColor;
 		}
@@ -16,12 +17,24 @@
 		width: 75%;
 		margin: 3% auto;
 
+		@media (max-width: 769px) {
+			display: block;
+		}
+
 		img {
 			width: 65%;
 			margin-right: 5%;
+
+			@media (max-width: 769px) {
+				width: 100%;
+				margin-bottom: 7%;
+			}
 		}
 
 		.contact-content {
+			@media (max-width: 769px) {
+				text-align: center;
+			}
 			a:nth-of-type(1) {
 				svg {
 					color: black;
@@ -43,7 +56,12 @@
 			a {
 				margin-right: 7%;
 				img {
-					width: 13%;
+					width: 3em;
+					height: 2.7em;
+
+					@media (max-width: 769px) {
+						margin: 0;
+					}
 				}
 			}
 

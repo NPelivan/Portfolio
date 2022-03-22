@@ -40,7 +40,10 @@ export default class Navbar extends Component {
 				</nav>
 
 				<div className="mobile-nav-track">
-					<img src={Logo} alt="Logo" />
+					<Link to="/">
+						<img src={Logo} alt="Logo" />
+					</Link>
+
 					<img src={Hamburger} alt="Hamburger icon" onClick={this.clickNav} />
 
 					{this.state.on && (
@@ -52,22 +55,30 @@ export default class Navbar extends Component {
 							<nav className="mobile-nav-bar">
 								<ul>
 									<li>
-										<Link to="/">Home</Link>
+										<Link to="/" onClick={this.clickNav}>
+											Home
+										</Link>
 									</li>
 									<hr />
 
 									<li>
-										<Link to="/about">About</Link>
+										<Link to="/about" onClick={this.clickNav}>
+											About
+										</Link>
 									</li>
 									<hr />
 
 									<li>
-										<Link to="/works">Works</Link>
+										<Link to="/works" onClick={this.clickNav}>
+											Works
+										</Link>
 									</li>
 									<hr />
 
 									<li>
-										<Link to="/contact">Contact</Link>
+										<Link to="/contact" onClick={this.clickNav}>
+											Contact
+										</Link>
 									</li>
 								</ul>
 							</nav>

@@ -37,6 +37,10 @@
 	.skill-container {
 		display: block;
 		width: 30%;
+
+		@media (max-width: 769px) {
+			width: 50%;
+		}
 		h2 {
 			margin-bottom: 8%;
 		}

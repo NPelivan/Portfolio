@@ -18,12 +18,21 @@
 		justify-content: space-between;
 		font-size: 18px;
 
+		@media (max-width: 769px) {
+			display: block;
+		}
+
 		article {
 			flex: 0 1 24%;
 			margin-bottom: 5%;
 			background-color: $whiteColor;
 			width: 100%;
 			border-radius: 15px;
+
+			@media (max-width: 769px) {
+				margin-bottom: 15%;
+				padding-bottom: 1%;
+			}
 
 			img {
 				width: 530px;
@@ -32,6 +41,10 @@
 
 				@media (min-width: 1023px) and (max-width: 1400px) {
 					width: 370px;
+				}
+
+				@media (max-width: 769px) {
+					width: 100%;
 				}
 			}
 
