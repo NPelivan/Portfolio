@@ -16,7 +16,7 @@ export default class Home extends Component {
 
 						<p>Frontend developer/designer</p>
 
-						<Link to="/contact">
+						<Link className="btn-link" to="/contact">
 							<button>Contact me</button>
 						</Link>
 					</article>

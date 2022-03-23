@@ -10,12 +10,21 @@
 		span {
 			color: $mainColor;
 		}
+
+		@media (max-width: 426px) {
+			width: 90%;
+			margin: auto;
+		}
 	}
 
 	.contact-info {
 		display: flex;
 		width: 75%;
 		margin: 3% auto;
+
+		@media (max-width: 426px) {
+			width: 90%;
+		}
 
 		@media (max-width: 769px) {
 			display: block;
@@ -48,6 +57,9 @@
 			p:nth-of-type(2) {
 				margin-bottom: 0;
 				margin-top: 10%;
+				@media (max-width: 426px) {
+					margin-bottom: 10%;
+				}
 			}
 
 			h3 {

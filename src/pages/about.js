@@ -83,7 +83,7 @@ export default class About extends Component {
 						</li>
 						<li>
 							<FontAwesomeIcon icon={faPlus} />
-							Mobx (state management)
+							Mobx, Redux (state management)
 						</li>
 						<li>
 							<FontAwesomeIcon icon={faPlus} />

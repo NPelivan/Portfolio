@@ -3,6 +3,10 @@
 
 .home-main {
 	height: 78vh;
+
+	@media (max-width: 426px) {
+		height: 98vh;
+	}
 }
 
 section {
@@ -14,11 +18,23 @@ section {
 		width: 90%;
 	}
 
+	@media (max-width: 426px) {
+		display: block;
+	}
+
 	article {
 		width: 50%;
 
+		@media (max-width: 426px) {
+			width: 100%;
+		}
+
 		h1 {
 			font-size: 45px;
+
+			@media (min-width: 427px) and (max-width: 581px) {
+				font-size: 38px;
+			}
 		}
 		p {
 			margin-top: 5%;
@@ -32,6 +48,11 @@ section {
 		@media (max-width: 769px) {
 			margin-top: 5%;
 		}
+
+		@media (max-width: 426px) {
+			width: 100%;
+			margin-top: 10%;
+		}
 	}
 	div img {
 		width: 100%;
@@ -40,6 +61,14 @@ section {
 
 .name {
 	color: $mainColor;
+}
+
+.btn-link {
+	@media (max-width: 426px) {
+		display: flex;
+		justify-content: center;
+		text-decoration: none;
+	}
 }
 
 button {
@@ -54,6 +83,12 @@ button {
 
 	@media (max-width: 769px) {
 		font-size: 19px;
+	}
+
+	@media (max-width: 426px) {
+		display: flex;
+		justify-content: center;
+		padding: 3.5% 8%;
 	}
 
 	&:hover {
